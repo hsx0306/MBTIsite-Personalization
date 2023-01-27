@@ -68,6 +68,6 @@ async function result() {
     // 5초 후 Result page ${MBTI_result} 로 이동
     await setTimeout( function(){
         location.href = `/Result-page/Result.html`;
-    }, 5000);
+    }, 3000);
 
 }
