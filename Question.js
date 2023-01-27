@@ -18,11 +18,11 @@ Questions = {
         answer:[
             {
                 type:'E',
-                content:"굳이 파티룸을? 조금 부담스러운데..."
+                content:"ㅁㅊ 개재미있겠다 ㄱㄱ씽"
             },
             {
                 type:'I',
-                content:"ㅁㅊ 개재미있겠다 ㄱㄱ씽"
+                content:"굳이 파티룸을? 조금 부담스러운데..."
             }
         ]
     },
