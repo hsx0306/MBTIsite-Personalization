@@ -15,8 +15,6 @@
 }
 /* 블랙한산 */
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');
 
 /* 노토산스 */
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
@@ -68,7 +66,7 @@ body {
   }
 
 .title {
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Black Han Sans';
     font-size: 48px;
     font-weight: normal;
     font-stretch: normal;
@@ -204,7 +202,7 @@ body {
 
 .round-box-text {
     width: 100px;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Black Han Sans';
     font-size: 12px;
     line-height: 1.42;
     color: #fff;
