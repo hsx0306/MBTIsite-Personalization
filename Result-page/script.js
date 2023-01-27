@@ -59,18 +59,4 @@ async function ResultData(){
 
         }
     }
-
-    
-
-    //버튼 클릭 다운로드 함수
-    $(function(){
-        $(".btn_download").click(function(e){
-            html2canvas(document.getElementById("capture_area")).then(function(canvas) {
-                var el = document.createElement("a")
-                el.href = canvas.toDataURL("image/jpeg")
-                el.download = '이미지.jpg' //다운로드 할 파일명 설정
-                el.click()
-            })
-        })
-    })
 }   
