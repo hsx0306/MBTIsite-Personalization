@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+
+    <meta property="og:title" content="페인트 컬러 테스트">
+    <meta property="og:url" content="painttest.kro.kr">
+    <meta property="og:image" content="/img/Main.png">
+    <meta property="og:description" content="지금 바로 페인트 컬러 테스틑 해보세요!">
+
+    <link rel="shortcut icon" href="/img/150px/ENTP.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/150px/ENTP.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/html2canvas.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="DataMBTI.js"></script>
+    <title>페인트 컬러 테스트</title>
+</head>
+<body>
+    <script>
+
+    $(document).ready(function(){
+        ResultData();
+    })
+
+    </script>
+
+
+
+
+<div id="capture_area">
+
+
+    <!-- Sub title -->
+    <div class="header">
+        <div class="subtitle">씹덕의 색깔</div>
+    </div>
+
+    <!-- 이미지 로드 -->
+    <img class="Main-img" src="../img/150px/INTP.png">
+
+    <!-- Main title -->
+    <div class="title">카민</div>
+    <div class="eng-title">Carmine</div>
+
+    <!-- 고정 문구 -->
+    <span class="Paintcolortext">Paint Color Test</span>
+
+
+    <!-- 장단점 박스 -->
+
+    <div class="box">
+        <span class="Good">장점:</span>
+            <div class="Good_info">
+
+            </div>
+        
+        <span class="Bad">단점:</span>
+            <div class="Bad_info">
+
+            </div>
+            
+    </div>
+
+    <!-- 추천 페인트 박스 -->
+    <div class="round-box">
+        <span class="round-box-text">아래 페인트는<br>좋은 것 같아요</span>
+
+
+    </div>
+    
+    <div class="round-box2"><span class="round-box-text">아래 페인트는<br>좋지 않아요</span></div>
+    
+
+    <div class="GoodandBad-Paint">
+
+        <div class="Good-Paint">
+
+        </div>
+
+        <div class="Bad-Paint">
+          
+        </div>
+        
+    </div>
+</div>
+
+<button class="btn_download">이미지 저장</button>
+
+
+<div class="footer">
+    광고 및 후원 문의<br>
+    Advertising and Sponsorship Contact
+    <a href="http://instagram.com/_u/seoung_0306/">Insta: @seoung_0306</a>
+</div>
+
+</body>
+</html>
