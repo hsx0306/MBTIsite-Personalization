@@ -7,10 +7,10 @@ async function ResultData(){
     await $(".Main-img").attr("src", `/img/150px/${MBTI}.png`).trigger("create");
 
     //title 변경
-    await $(".title").html(`${MBTI_Data[`${MBTI}`].title}`)
+    await $(".title").html(`${MBTI_Data[`${MBTI}`].title}`).trigger("create");
 
     //eng-title 변경
-    await $(".eng-title").html(`${MBTI_Data[`${MBTI}`].engtitle}`)
+    await $(".eng-title").html(`${MBTI_Data[`${MBTI}`].engtitle}`).trigger("create");
 
     //메인컬러 변경
     await $(".subtitle").html(MBTI_Data[`${MBTI}`].subtitle);
