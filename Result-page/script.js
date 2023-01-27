@@ -44,15 +44,22 @@ async function ResultData(){
     
     //BadPaint 추가
     var j;
-
     if (MBTI_Data[`${MBTI}`].Bad_Paint['length'] == 0) {
         await $(".Bad-Paint").append(`<div id="Null">안 어울리는<br>페인트가 없어요!<div>`).trigger("create")
     }
     else{
+        
         for (j=0; j<MBTI_Data[`${MBTI}`].Bad_Paint['length']; j++) {
+            
+            var text = await MBTI_Data[MBTI_Data[`${MBTI}`].Bad_Paint[j]].title;
+            
+            
+            if(text.length>7){var text = await text.replace(/\s/g,'<br>');}
+            else{};
+
             await $(".Bad-Paint").append(`<section class="Bad-paint-box">
             <img class="Bad-paint-img" src="../img/150px/${MBTI_Data[`${MBTI}`].Bad_Paint[j]}.png">
-            <article class="Bad-paint-text Bcolor${j}">${MBTI_Data[MBTI_Data[`${MBTI}`].Bad_Paint[j]].title}</article>
+            <article class="Bad-paint-text Bcolor${j}">${text}</article>
             </section>`).trigger("create");
 
             await $(`.Bcolor${j}`).css("color",`${MBTI_Data[MBTI_Data[`${MBTI}`].Bad_Paint[j]].color}`)
