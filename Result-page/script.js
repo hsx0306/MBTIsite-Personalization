@@ -6,6 +6,12 @@ async function ResultData(){
     //MBTI로 이미지 변경
     await $(".Main-img").attr("src", `/img/150px/${MBTI}.png`).trigger("create");
 
+    //title 변경
+    await $(".title").html(`${MBTI_Data[`${MBTI}`].title}`)
+
+    //eng-title 변경
+    await $(".eng-title").html(`${MBTI_Data[`${MBTI}`].engtitle}`)
+
     //메인컬러 변경
     await $(".subtitle").html(MBTI_Data[`${MBTI}`].subtitle);
     await $(".header").css("background-color",`${MBTI_Data[`${MBTI}`].color}`);
@@ -18,13 +24,11 @@ async function ResultData(){
     await $(".Good_info").append(`<div><span class="dot">·</span><span class="Good-text">${MBTI_Data[`${MBTI}`].Good[0].content}</span></div>`).trigger("create");
     await $(".Good_info").append(`<div><span class="dot">·</span><span class="Good-text">${MBTI_Data[`${MBTI}`].Good[1].content}</span></div>`).trigger("create");
     await $(".Good_info").append(`<div><span class="dot">·</span><span class="Good-text">${MBTI_Data[`${MBTI}`].Good[2].content}</span></div>`).trigger("create");
-    console.log('장점 데이터가 변경되었습니다.');
 
     //단점 정보 추가
     await $(".Bad_info").append(`<div><span class="dot">·</span><span class="Good-text">${MBTI_Data[`${MBTI}`].Bad[0].content}</span></div>`).trigger("create");
     await $(".Bad_info").append(`<div><span class="dot">·</span><span class="Good-text">${MBTI_Data[`${MBTI}`].Bad[1].content}</span></div>`).trigger("create");
     await $(".Bad_info").append(`<div><span class="dot">·</span><span class="Good-text">${MBTI_Data[`${MBTI}`].Bad[2].content}</span></div>`).trigger("create");
-    console.log('단점 데이터가 변경되었습니다.');
 
 
     //Goodpaint 추가
