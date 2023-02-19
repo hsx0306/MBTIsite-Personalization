@@ -6,9 +6,7 @@
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
 
 body {
-    width: 390px;
-    height: 844px;
-    padding: 180px 45px 175px;
+    padding: 160px 45px 160px 45px;
     background-color: #880d09;
   }
 
@@ -23,9 +21,6 @@ a:hover {
 }
 
 .Question {
-    width: 300px;
-    height: 48px;
-    margin: 0 0 30px;
     font-family: Noto Sans KR;
     font-size: 16px;
     font-weight: bold;
@@ -35,24 +30,36 @@ a:hover {
     letter-spacing: normal;
     text-align: center;
     color: #fff;
+    margin-bottom: 30px;
+
 }
 
 
 .text-box {
-  
   width: 300px;
   height: 100px;
-  margin: 30px 0;
+  margin-bottom: 30px;
   padding: 30px 25px;
   border-radius: 50px;
   background-color: #ffffff;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  
   flex-wrap: nowrap;
   text-align: center;
   border: 2px solid #b80f0a;
 }
+
+.textbox {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 .select {
     font-family: Noto Sans KR;
@@ -73,6 +80,7 @@ a:hover {
     border-radius: 8px;
     background-color: #eb3b3b;
 
+
 }
 
 .rating-Process {
@@ -80,12 +88,16 @@ a:hover {
     height: 22px;
     border-radius: 8px;
     background-color: #e49191;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
   }
 
 .number {
-  width: 50px;
-  height: 24px;
-  margin: 30px 135px 30px 115px;
+  margin: 30px 0 30px 0;
   font-family: Noto Sans KR;
   font-size: 16px;
   font-weight: 500;
@@ -93,8 +105,12 @@ a:hover {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  text-align: right;
   color: #ffffff;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+
 }
 
 .footer {
@@ -110,4 +126,12 @@ a:hover {
   letter-spacing: normal;
   text-align: center;
   color: #e6e6e6;
+
+
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
