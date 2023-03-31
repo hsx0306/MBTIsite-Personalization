@@ -14,7 +14,8 @@
 ## Usage
 
 ### 결과페이지 설정하기
-- img파일에 있는 150px이미지 파일을 수정합니다. (우측과 같음)<img src="https://user-images.githubusercontent.com/70040924/229172070-cb648c25-eb4f-451a-97f5-efac179b7a62.png"  width="25" height="25">   (※권장 이미지는 150px*150px의 이미지입니다.)
+- img파일에 있는 150px이미지 파일을 수정합니다. (우측과 같음)<img src="https://user-images.githubusercontent.com/70040924/229172070-cb648c25-eb4f-451a-97f5-efac179b7a62.png"  width="25" height="25">   
+(※권장 이미지는 150px*150px의 이미지입니다.)
 
 - DataMBTI.js 설정하기
 
