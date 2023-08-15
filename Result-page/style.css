@@ -1,24 +1,25 @@
-/* 폰트 import */
-
+/* Font import */
 
 /* Kaisei HarunoUmi */
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
 
-/* SF함박눈 */
+/* SF_HambackSnow Font */
 @font-face {
   font-family: 'SF_HambakSnow';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-/* 블랙한산 */
+
+/* BlackHanSans Font */
 @font-face {
   font-family: 'BlackHanSans';
   src: url('/font/BlackHanSans-Regular.ttf') format('truetype');
 }
-/* 노토산스 */
+
+/* Notosans Font Font */
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
@@ -26,80 +27,74 @@
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
 
-
 body {
-    /* width: 390px;
-    height: 1000px; */
-    padding: 0 0 30px;
-    background-color: #fff;
-  }
+  padding: 0 0 30px;
+  background-color: #fff;
+}
 
 .header {
-    /* width: 390px; */
-    height: 76px;
-    border-bottom-left-radius: 61px;
-    border-bottom-right-radius: 61px;
-    background-color: #960018;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    text-align: center;
-  }
+  height: 76px;
+  border-bottom-left-radius: 61px;
+  border-bottom-right-radius: 61px;
+  background-color: #960018;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .subtitle {
-    width: 380px;
-    height: 32px;
-    font-family: SF_HambakSnow;
-    font-size: 32px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.28;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-  }
+  width: 380px;
+  height: 32px;
+  font-family: SF_HambakSnow;
+  font-size: 32px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
 
 .Main-img {
-    width: 150px;
-    height: 150px;
-    margin: auto;
-  }
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
 
 .title {
-    font-family: BlackHanSans;
-    font-size: 48px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.46;
-    letter-spacing: normal;
-    text-align: center;
-    color: #960018;
+  font-family: BlackHanSans;
+  font-size: 48px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #960018;
 }
-.eng-title {
-    font-family: Kaisei HarunoUmi;
-    font-size: 24px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.46;
-    letter-spacing: normal;
-    text-align: center;
-    color: #960018;
-  }
 
-.Paintcolortext{
-    font-family: Kaisei HarunoUmi;
-    font-size: 12px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: center;
-    color: #b80f0a;
+.eng-title {
+  font-family: Kaisei HarunoUmi;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #960018;
+}
+
+.Paintcolortext {
+  font-family: Kaisei HarunoUmi;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b80f0a;
 }
 
 .box {
@@ -113,18 +108,17 @@ body {
 }
 
 .Good {
-    margin: 0 200px 0 0;
-    font-family: Noto Sans KR;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
+  margin: 0 200px 0 0;
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
 }
-
 
 .Good_info {
   margin: 0 0 0 10px;
@@ -136,39 +130,37 @@ body {
   text-align: left;
 }
 
-
-
 .Bad {
-    margin: 0 200px 0 0;
-    font-family: Noto Sans KR;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
+  margin: 0 200px 0 0;
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
 }
 
 .dot {
-    width: 6px;
-    height: 17px;
-    margin: 0px 10px 0 0px;
-    font-family: Noto Sans KR;
-    font-size: 12px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
+  width: 6px;
+  height: 17px;
+  margin: 0 10px 0 0;
+  font-family: Noto Sans KR;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
 }
 
 .Good-text {
   height: 17px;
-  margin: 24px 0 0 0px;
+  margin: 24px 0 0 0;
   font-family: Noto Sans KR;
   font-size: 12px;
   font-weight: 500;
@@ -185,7 +177,6 @@ body {
 }
 
 .round-box {
-
   width: 140.3px;
   height: 54.9px;
   margin: 30px 49.5px 0.1px 30px;
@@ -194,40 +185,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
   text-align: center;
-
 }
 
 .round-box2 {
-    width: 140.3px;
-    height: 54.9px;
-    margin: -55px 30px 0.1px 219.7px;
-    border-radius: 28px;
-    background-color: #353535;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    text-align: center;
+  width: 140.3px;
+  height: 54.9px;
+  margin: -55px 30px 0.1px 219.7px;
+  border-radius: 28px;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .round-box-text {
-    width: 100px;
-    font-family: BlackHanSans;
-    font-size: 12px;
-    line-height: 1.42;
-    color: #fff;
+  width: 100px;
+  font-family: BlackHanSans;
+  font-size: 12px;
+  line-height: 1.42;
+  color: #fff;
 }
 
-.Bad-Paint{
+.Bad-Paint {
   height: 198px;
   width: 200px;
   float: left;
   box-sizing: border-box;
 }
 
-.Good-Paint{
+.Good-Paint {
   height: 198px;
   width: 200px;
   float: left;
@@ -235,48 +223,42 @@ body {
 }
 
 .Good-paint-box {
-    width: 93px;
-    height: 66px;
-    float: center;
-    margin: 0px 0px 0px 54px;
-    padding: 0px 22px 0px 21px;
-  }
+  width: 93px;
+  height: 66px;
+  margin: 0 0 0 54px;
+  padding: 0 22px 0 21px;
+}
 
 .Good-paint-img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .Good-paint-text {
-    height: 15px;
-    margin: 0px -15px 0px;
-    font-family: Noto Sans KR;
-    font-size: 10px;
-    font-weight: bold;
-    line-height: 1.38;
-    text-align: center;
-    color: #adb4da;
-  }
+  height: 15px;
+  margin: 0 -15px 0;
+  font-family: Noto Sans KR;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.38;
+  text-align: center;
+  color: #adb4da;
+}
 
 .Bad-paint-box {
   float: left;
   width: 64px;
   height: 53px;
-  left: 221px;
-  top: 657px;
-  margin: 10px 0px 0px 1px;
-
+  margin: 10px 0 0 1px;
 }
 
 .Bad-paint-img {
-
   width: 40px;
   height: 40px;
   margin: 0 10px;
 }
 
-.Bad-paint-text{
-
+.Bad-paint-text {
   height: 11px;
   font-family: Noto Sans KR;
   font-size: 8px !important;
@@ -286,8 +268,9 @@ body {
   color: #adb4da;
 }
 
-
 .GoodandBad-Paint {
+  display: flex;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -305,11 +288,10 @@ body {
 .btn_download {
   width: 100px;
   height: 50px;
-  margin: 0px 0px 0px 145px;
+  margin: 0 0 0 145px;
   border-radius: 27px;
   border: solid 1px #353535;
   background-color: #fff;
-
 
   font-family: Noto Sans KR;
   font-size: 12px;
@@ -318,7 +300,6 @@ body {
   text-align: center;
   color: #353535;
 }
-
 
 .footer {
   padding: 30px;
@@ -331,8 +312,6 @@ body {
   letter-spacing: normal;
   text-align: center;
   color: #353535;
-
-
   text-align: center;
   display: flex;
   text-align: center;

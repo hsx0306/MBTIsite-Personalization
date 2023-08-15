@@ -8,6 +8,7 @@
 body {
     padding: 160px 45px 160px 45px;
     background-color: #880d09;
+    overflow: hidden;
   }
 
 a {

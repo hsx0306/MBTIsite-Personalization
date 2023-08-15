@@ -18,6 +18,8 @@ async function ResultData(){
     await $(".title").css("color",`${MBTI_Data[`${MBTI}`].color}`);
     await $(".eng-title").css("color", `${MBTI_Data[`${MBTI}`].color}`);
     await $(".box").css("background-color",`${MBTI_Data[`${MBTI}`].color}`);
+    await $('meta[name="theme-color"]').attr('content', `${MBTI_Data[`${MBTI}`].color}`);
+
    
 
     //장점 정보 추가
