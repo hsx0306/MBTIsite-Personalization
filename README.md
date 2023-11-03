@@ -1,9 +1,6 @@
 # MBTI 아류작 사이트
 나만의 MBTI 아류작 사이트를 만들 수 있습니다.
 
-<img src="https://github.com/hsx0306/MBTIsite-Personalization/blob/main/img/resultimg.jpg?raw=true" width="100" height="200"> <img src="https://github.com/hsx0306/MBTIsite-Personalization/blob/main/img/Main.png?raw=true" width="100" height="200">
-
-
 ## Introduction
 이 프로젝트는 MBTI 성격 유형에 대한 정보와 관련된 콘텐츠를 제공하는 사이트를 만드는 것입니다. 
 이 사이트는 기존 MBTI 사이트와는 다르게 독창적인 접근 방식과 디자인을 가지고 있으며, 사용자들에게 보다 유용한 정보를 제공하도록 노력합니다.
