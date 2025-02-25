@@ -57,6 +57,12 @@ DataMBTI.js에는 모든 MBTI가 상단의 형태로 정리되어있습니다.
 
 원하는 것으로 수정하시면 됩니다.
 
+## 기술스택
+- Frontend: JavaScript (ES6+)
+- UI Framework: jQuery
+- Storage: localStorage (MBTI 결과 저장)
+- Asynchronous Processing: async/await, setTimeout() (비동기 처리)
+
 ## License
 이 프로젝트는 ```GPL``` 라이센스를 따릅니다. 자세한 내용은 ```LICENSE``` 파일에서 확인할 수 있습니다.
 
